@@ -3,8 +3,11 @@ from random import randrange
 def task_1(): # Lottery ticket generator
 
     ticket = []
-
-    # Code here
+while len(ticket) < 6:
+    number = random.randint(1, 49)
+    if number not in ticket:
+        ticket.append(number)
+   
     
     return ticket
 
