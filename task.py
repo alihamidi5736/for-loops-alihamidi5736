@@ -14,8 +14,12 @@ while len(ticket) < 6:
 def task_2(): # Countdown
 
     output = []
-
-    # Code here
+    user_number = int(input("enter a number less than 100"))
+    if user_number >= 100 
+    print("enter a number less than 100")
+    else for i in range(100, number_user - 1, -1)
+    print(i)
+   
 
     return output
 
