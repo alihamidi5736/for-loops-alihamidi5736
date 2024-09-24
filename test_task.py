@@ -6,8 +6,7 @@ def test_task_1_length():
     result = task_1()
     assert len(result) == 6
 
-@pytest.mark.parametrize("n", range(10))
-def test_task_1_values(n):
+def test_task_1_values():
     result = task_1()
     for i in result:
         assert 1 <= i <= 49
